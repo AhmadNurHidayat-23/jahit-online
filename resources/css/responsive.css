@@ -1,0 +1,130 @@
+@media (max-width: 1100px) {
+    header,
+    footer {
+        padding-inline: 30px;
+    }
+    .hero {
+        padding: 40px 30px;
+        gap: 35px;
+    }
+    .hero h1 {
+        font-size: 72px;
+    }
+    .hero figure > img {
+        height: 500px;
+    }
+    .services-section,
+    .craft {
+        padding: 40px 30px;
+    }
+    .services {
+        gap: 20px;
+    }
+    .services article img {
+        height: 280px;
+    }
+    .service-meta {
+        display: block;
+    }
+    .service-meta small {
+        margin-top: 8px;
+    }
+    .workspace {
+        padding: 40px 30px;
+    }
+    .booking-layout {
+        grid-template-columns: minmax(0, 1fr) 300px;
+        gap: 25px;
+    }
+    .dimensions {
+        grid-template-columns: 1fr 1fr;
+    }
+    .detail-layout {
+        grid-template-columns: minmax(0, 1fr) 300px;
+        gap: 25px;
+    }
+    .auth-layout {
+        gap: 40px;
+    }
+    .craft {
+        gap: 35px;
+    }
+    .craft ol {
+        gap: 20px;
+    }
+    .order-row {
+        gap: 20px;
+    }
+    .order-row > div > strong {
+        font-size: 18px;
+    }
+}
+@media (max-width: 800px) {
+    .hero h1 {
+        font-size: 62px;
+    }
+    .hero figure > img {
+        height: 430px;
+    }
+    .hero-note {
+        gap: 15px;
+        font-size: 7px;
+    }
+    .services-section .section-heading {
+        align-items: start;
+        flex-wrap: wrap;
+    }
+    .services article img {
+        height: 230px;
+    }
+    .services h3 {
+        font-size: 23px;
+    }
+    .craft {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .booking-layout,
+    .detail-layout {
+        grid-template-columns: 1fr;
+    }
+    .booking-summary {
+        position: static;
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+    }
+    .booking-summary > img {
+        height: 280px;
+    }
+    .price-summary {
+        position: static;
+    }
+    .auth-layout {
+        grid-template-columns: 1fr;
+        max-width: 600px;
+        margin-top: 40px;
+    }
+    .auth-layout > div > img {
+        display: none;
+    }
+    .auth-layout h1 {
+        font-size: 50px;
+    }
+    .order-row {
+        grid-template-columns: 2fr 1fr 25px;
+    }
+    .order-row > div:nth-last-child(2) {
+        display: none;
+    }
+    .invoice {
+        margin: 35px 25px;
+        padding: 30px;
+    }
+    footer {
+        flex-wrap: wrap;
+    }
+    .measurement-list {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}

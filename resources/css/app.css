@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "./base.css";
+@import "./home.css";
+@import "./forms.css";
+@import "./orders.css";
+@import "./responsive.css";
+@import "./responsive.part-2.css";
+@source '../js';
