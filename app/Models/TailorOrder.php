@@ -27,6 +27,16 @@ class TailorOrder extends Model
         return $this->belongsTo(User::class);
     }
 
+    public function service()
+    {
+        return $this->belongsTo(Service::class);
+    }
+
+    public function isPaid(): bool
+    {
+        return $this->paid_at !== null;
+    }
+
     public function events()
     {
         return $this->hasMany(TailorEvent::class);

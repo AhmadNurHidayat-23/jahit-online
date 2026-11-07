@@ -12,4 +12,9 @@ class Service extends Model
     {
         return ['price' => 'integer', 'lead_days' => 'integer'];
     }
+
+    public function orders()
+    {
+        return $this->hasMany(TailorOrder::class);
+    }
 }
